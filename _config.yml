@@ -1,1 +1,3 @@
 theme: jekyll-theme-minimal
+# Setting exclude replaces Jekyll's default list, so the local-preview files are listed too.
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor]

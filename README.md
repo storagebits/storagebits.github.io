@@ -30,12 +30,12 @@ The `github-pages` gem pins the same Jekyll and theme versions as GitHub Pages. 
 
 ## Configuration
 
-`_config.yml` holds the Jekyll settings; today only the theme (`jekyll-theme-minimal`). The Pages source branch and the custom domain, if any, are set in the repository's settings (Settings → Pages), not in a file.
+`_config.yml` holds the Jekyll settings: the theme (`jekyll-theme-minimal`) and the files kept out of the site (`README.md`, `LICENSE`). The Pages source branch and the custom domain, if any, are set in the repository's settings (Settings → Pages), not in a file.
 
 ## Project layout
 
 ```
-_config.yml   Jekyll settings (theme)
+_config.yml   Jekyll settings (theme, excluded files)
 index.md      home page
 ```
 
